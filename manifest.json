@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "MSRA",
+    "version": "0.0.1",
+    "description": "Removes all typos from ze.tt",
+    "content_scripts": [
+        {
+            "matches": ["*://*.ze.tt/*"],
+            "js": ["msra.js"]
+        }
+    ]
+}
