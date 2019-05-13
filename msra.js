@@ -1,4 +1,4 @@
-const regexp = /([a-zäöüß]+)(\*innen|\*in|\*)/giu;
+const regexp = /([a-zäöüß]+)(\*innen|\*in|\*[a-zäöüß]+)/giu;
 
 const msra = tag => {
     const elems = document.getElementsByTagName(tag);
