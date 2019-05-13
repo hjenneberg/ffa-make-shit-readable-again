@@ -10,4 +10,4 @@ const msra = tag => {
     }
 };
 
-["p"].map(tag => msra(tag));
+["p", "span", "a", "h1"].map(tag => msra(tag));
